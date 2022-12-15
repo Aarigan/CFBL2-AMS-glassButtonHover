@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(40deg, rgba(2, 246, 254, 0.639), rgba(36, 4, 246, 0.607));
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;  
+}
+
+.all-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btns {
+  display: inline-block;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.div-btn {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 45px;
+}
+
+button {
+  text-align: center;
+  font-family: 'Rubik Spray Paint', cursive;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 12px 24px;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.1s ease; 
+}
+
+/* Button 1 */
+.btn-1 {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  box-shadow: 0 10px 15px rgba( 0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-1:hover {
+  color: rgba(4, 12, 254, 0.993);
+  box-shadow: 0 10px 15px rgba(4, 12, 254, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(4, 12, 254, 0.3);
+  border-bottom: 1px solid rgba(4, 12, 254, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 30px rgb(4, 12, 254);
+  transition-delay: .1s;
+}
+
+/* Button 2 */
+.btn-2 {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+}
+
+.btn-2:hover {
+  color: rgba(254, 4, 4, 0.993);
+  box-shadow: 0 10px 15px rgba(250, 1, 1, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(255, 2, 2, 0.3);
+  border-bottom: 1px solid rgba(255, 2, 2, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 30px rgb(255, 8, 0);
+  transition-delay: .1s;
+}
+
+/* Button 3 */
+.btn-3 {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+}
+
+.btn-3:hover {
+  color: rgba(25, 254, 4, 0.993);
+  box-shadow: 0 10px 15px rgba(25, 254, 4, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(25, 254, 4, 0.2);
+  border-bottom: 1px solid rgba(25, 254, 4, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 30px rgb(25, 254, 4);
+  transition-delay: .1s;
+}
+
+/* Button 4 */
+.btn-4 {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+}
+
+.btn-4:hover {
+  color: rgba(25, 254, 255, 0.993);
+  box-shadow: 0 10px 15px rgba(25, 254, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(25, 254, 255, 0.2);
+  border-bottom: 1px solid rgba(25, 254, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 30px rgb(25, 254, 255);
+  transition-delay: .1s;
+}
+
+/* Button 5 */
+.btn-5 {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 24px;
+}
+
+.btn-5:hover {
+  color: rgba(254, 254, 4, 0.993);
+  box-shadow: 0 10px 15px rgba(254, 254, 4, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(254, 254, 4, 0.2);
+  border-bottom: 1px solid rgba(254, 254, 4, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 30px rgb(254, 254, 4);
+  transition-delay: .1s;
+}
+
+/* Button 6 */
+.btn-6 {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 100px;
+}
+
+.btn-6:hover {
+  color: rgba(252, 152, 3, 0.993);
+  box-shadow: 0 10px 15px rgba(252, 152, 3, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(252, 152, 3, 0.3);
+  border-bottom: 1px solid rgba(252, 152, 3, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 30px rgb(252, 152, 3);
+  transition-delay: .1s;
+}
+
+/* Button 7 */
+.btn-7 {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px 100px / 120px;
+}
+
+.btn-7:hover {
+  color: rgba(4, 121, 254, 0.993);
+  box-shadow: 0 10px 15px rgba(4, 121, 254, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(4, 121, 254, 0.3);
+  border-bottom: 1px solid rgba(4, 121, 254, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 30px rgb(4, 121, 254);
+  transition-delay: .1s;
+}
+
+
+/* Button 8 square*/
+.btn-8 {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5); 
+}
+
+.btn-8:hover {
+  color: rgba(196, 4, 254, 0.993);
+  box-shadow: 0 10px 15px rgba(196, 4, 254, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(196, 4, 254, 0.2);
+  border-bottom: 1px solid rgba(196, 4, 254, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 30px rgb(196, 4, 254);
+  transition-delay: .1s;
+}
+
+/* Button 9 rounded*/
+.btn-9 {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5); 
+  border-radius: 50%; 
+}
+
+.btn-9:hover {
+  color: rgba(79, 4, 254, 0.993);
+  box-shadow: 0 10px 15px rgba(79, 4, 254, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: .5px solid rgba(79, 4, 254, 0.2);
+  border-bottom: 1px solid rgba(79, 4, 254, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 30px rgb(79, 4, 254);
+  transition-delay: .1s;
+}
