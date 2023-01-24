@@ -33,14 +33,14 @@ body {
 .btns {
   display: inline-block;
   justify-content: center;
-  margin-left: 10px;
+  margin: 10px;
 }
 
 .div-btn {
   display: inline-block;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 45px;
+  margin-left: 35px;
 }
 
 button {
