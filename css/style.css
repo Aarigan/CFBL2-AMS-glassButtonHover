@@ -153,7 +153,9 @@ button {
   border-radius: 12px;
 }
 
-.btn-4:hover {
+.btn-4:hover,
+.btn-4:focus,
+.btn-4:active {
   color: rgba(25, 254, 255, 0.993);
   box-shadow: 0 10px 15px rgba(25, 254, 255, 0.2);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -178,7 +180,9 @@ button {
   border-radius: 24px;
 }
 
-.btn-5:hover {
+.btn-5:hover,
+.btn-5:focus,
+.btn-5:active {
   color: rgba(254, 254, 4, 0.993);
   box-shadow: 0 10px 15px rgba(254, 254, 4, 0.2);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
