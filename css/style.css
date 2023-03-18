@@ -99,7 +99,9 @@ button {
   border-radius: 3px;
 }
 
-.btn-2:hover {
+.btn-2:hover,
+.btn-2:focus,
+.btn-2:active {
   color: rgba(254, 4, 4, 0.993);
   box-shadow: 0 10px 15px rgba(250, 1, 1, 0.2);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -124,7 +126,9 @@ button {
   border-radius: 6px;
 }
 
-.btn-3:hover {
+.btn-3:hover,
+.btn-3:focus,
+.btn-3:active {
   color: rgba(25, 254, 4, 0.993);
   box-shadow: 0 10px 15px rgba(25, 254, 4, 0.2);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
